@@ -9,23 +9,23 @@ Vim has COMMAND mode and an INSERT mode.
 
 i to go to INSERT mode, esc to go to COMMAND mode.
 
-Quit vim:
+### Quit vim:
 Command mode
-`:q` or `:q!` to discard the changes.
+`:q` or `:q!` to discard the changes. `:wq` to write changes and quit.
 
-Line numbers:
+### Line numbers:
 `:set number`
 
-Delete line, undo, redo:
+### Delete line, undo, redo:
 Command mode:
-go to that line: `dd`
-Undo: `u`
-Redo: `ctrl r`
-delete multiple lines: `3dd` -deletes 3 lines.
+- go to that line: `dd`
+- Undo: `u`
+- Redo: `ctrl r`
+- delete multiple lines: `3dd` -deletes 3 lines.
 
-Search:
+### Search:
 `/word`
 
-Replace:
+### Replace:
 `:%s/word/newword/`
 
